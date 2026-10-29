@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meridian-video-preprocessing"
+version = "0.1.0"
+description = "Sample MP4 frames and stack them into PyTorch tensors"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "opencv-python",
+    "numpy",
+    "requests",
+    "python-dotenv",
+    "scikit-learn>=1.3",
+]
+
+[project.scripts]
+video-preprocess = "video_preprocessing:main"
+gym-evaluate = "evaluation:main"
+gym-evaluate-dataset = "evaluate_dataset:main"
+
+[tool.setuptools]
+py-modules = ["video_preprocessing", "evaluation", "evaluate_dataset"]
+packages = ["evaluation_data"]
+
+[tool.setuptools.package-data]
+evaluation_data = ["exercise_options.json"]

@@ -1,0 +1,17 @@
+/test/
+.env
+.env.*
+!.env.example
+/dataset/
+/parsed_dataset/
+/dataset_results/
+/frames.pt
+/evaluation_results.json
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+build/
+dist/
+*.egg-info/

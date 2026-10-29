@@ -1,0 +1,38 @@
+{
+  "5": [
+    "squat",
+    "biceps curl",
+    "overhead press",
+    "deadlift",
+    "bench press"
+  ],
+  "10": [
+    "squat",
+    "biceps curl",
+    "overhead press",
+    "deadlift",
+    "bench press",
+    "lat pulldown",
+    "seated cable row",
+    "lateral raise",
+    "leg press",
+    "triceps pushdown"
+  ],
+  "15": [
+    "squat",
+    "biceps curl",
+    "overhead press",
+    "deadlift",
+    "bench press",
+    "lat pulldown",
+    "seated cable row",
+    "lateral raise",
+    "leg press",
+    "triceps pushdown",
+    "lunge",
+    "leg extension",
+    "leg curl",
+    "calf raise",
+    "chest fly"
+  ]
+}
